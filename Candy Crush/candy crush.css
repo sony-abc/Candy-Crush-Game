@@ -1,0 +1,35 @@
+body{
+    background-image: url("background.jpg") ;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center ;
+    background-attachment: fixed;
+    background-size:cover;
+    text-align: center;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+}
+#line1{
+font-family: monospace;
+font-size: 15 px;
+color: rgb(32, 1, 60);
+}
+#line2{
+color:green;
+}
+#board{
+    width:450px;
+    height:450px;
+    background-color: lightblue;
+    border: 5px solid slategray;
+    border-radius: 10px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+#board img{
+    width:50px;
+    height:50px;
+}
+
+
